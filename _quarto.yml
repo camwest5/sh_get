@@ -1,4 +1,5 @@
 project:
   type: website
   render:
-    - "payload.json"
+    - payload.json
+    - index.qmd
