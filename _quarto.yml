@@ -1,5 +1,7 @@
 project:
   type: website
+  pre-render: 
+    - sh-get.py
   render:
     - payload.json
     - index.qmd
