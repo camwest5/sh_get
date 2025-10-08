@@ -18,9 +18,6 @@ jobs:
 
       - name: Install Python and Dependencies
         uses: actions/setup-python@v5
-
-      - name: Get StudentHub API
-        run: python sh-get.py
           
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
